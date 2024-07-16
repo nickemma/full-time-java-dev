@@ -57,6 +57,10 @@ public class DataStructuresDemo {
 
         // advance iterator
         fruits.forEach(f-> System.out.println("wow this is sweet " + f));
+        // Only for single iterator. this is lambda expression
+        fruits.forEach(System.out::println);
+
+
         System.out.println(fruits);
 
         fruits.remove();
@@ -74,8 +78,10 @@ public class DataStructuresDemo {
         // advance iterator
         for(Map.Entry caloryInfo : fruitCalories.entrySet()){
             System.out.println("key and value printed here " + caloryInfo.getKey() + ": " + caloryInfo.getValue());
-
         }
+        // advance iterator using forEach
+        fruitCalories.forEach((k, v) -> System.out.println("Advanced " + k + ": " + v));
+
         System.out.println(fruitCalories);
 
         fruitCalories.remove("lemon");
