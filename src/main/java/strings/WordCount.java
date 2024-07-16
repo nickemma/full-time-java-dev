@@ -26,7 +26,7 @@ public class WordCount {
     }
 
     public static void capitalizeText(String text) {
-        var modifyText = new StringBuilder(text);
+        StringBuilder modifyText = new StringBuilder(text);
 
         for (int i = 0; i < modifyText.length(); i++) {
             if(i != 0 && Character.isUpperCase(modifyText.charAt(i))) {
