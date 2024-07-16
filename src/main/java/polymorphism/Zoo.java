@@ -7,10 +7,14 @@ public class Zoo {
         bullDog.fetch();
         bullDog.makeSound();
 
-        Animal rocky = new Dog();
-        rocky.makeSound();
+        Animal sasha = new Dog();
+        sasha.makeSound();
 
-        rocky = new Cat();
-        rocky.makeSound();
+        sasha = new Cat();
+        sasha.makeSound();
+
+        // down side | type casting cat to use the full method
+        ((Cat)sasha).scratch();
+
     }
 }
