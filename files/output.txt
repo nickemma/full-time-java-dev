@@ -1,0 +1,6 @@
+"Amazon"
+"Apple"
+"Microsoft"
+"Google"
+"Meta"
+"Ndivia"
