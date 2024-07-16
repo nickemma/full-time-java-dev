@@ -13,6 +13,6 @@ public class ThrowingException {
     }
 
     public static void main(String[] args) throws NegativeInputException {
-        System.out.println(calculatePay(30, 1000)) ;
+        System.out.println(calculatePay(20, 500)) ;
     }
 }
